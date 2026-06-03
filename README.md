@@ -1,15 +1,40 @@
+# Campus Notification System
 
-# Campus Notification System Design
+This project was developed for the Affordmed Campus Hiring Evaluation.
 
-## Overview
+## Features
 
-This project fetches notifications from the evaluation API and displays the top 10 notifications based on priority.
+* Fetch notifications from API
+* Filter by notification type
+* Pagination support
+* Viewed / Unviewed notifications
+* Priority Notifications page
+* Responsive UI using Material UI
+
+## Tech Stack
+
+* Next.js
+* TypeScript
+* Material UI
+* Node.js
+
+## Run Locally
+
+```bash
+cd notification_app_fe
+npm install
+npm run dev
+```
+
+Open:
+
+```txt
+http://localhost:3000
+```
 
 ## Priority Logic
-Priority is calculated using:
 
-* Notification Type
-* Recency
+Priority is calculated using notification type and recency.
 
 Weights used:
 
@@ -17,7 +42,13 @@ Weights used:
 * Result = 60
 * Event = 30
 
-Newer notifications receive a higher freshness score.
+Recent notifications recieve higher priority score.
+
+## Author
+
+Adarsh Dubey
+Roll No: 2302901540009
+
 
 
 
