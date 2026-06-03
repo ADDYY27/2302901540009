@@ -1,6 +1,6 @@
 # Campus Notification System
 
-This project was developed for the Affordmed Campus Hiring Evaluation.
+This project was developed for the Campus Hiring Evaluation.
 
 ## Features
 
